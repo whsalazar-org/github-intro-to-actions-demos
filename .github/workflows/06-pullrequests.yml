@@ -4,7 +4,7 @@ on:
   pull_request:  
     branches: 
       - main
-  
+    
 jobs:
   build-test-branch:
     name: "Build and Test Of PR"
