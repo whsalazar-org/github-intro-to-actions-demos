@@ -1,4 +1,4 @@
-# GitHub: Intro to Actions
+# GitHub: Intro to NewActions
 
 ## Overview
 This repository has a series of workflows designed to introduce different features of GitHub Actions.
@@ -24,5 +24,4 @@ This repository has a series of workflows designed to introduce different featur
 2. Reusable Workflows
 3. **Note Add:** Reusable with inputs
 4. Handing Failures with Conditionals
-5. Testing
 
