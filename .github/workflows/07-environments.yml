@@ -22,6 +22,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo My deploy steps
+      - name: run step 2
+        run: echo step 2
         
   #####################################################   
   
