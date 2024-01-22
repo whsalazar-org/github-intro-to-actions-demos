@@ -3,7 +3,7 @@
 
 name: Demo 1 - Basic Workflow
 
-# Controls when the workflow will run
+# Controls when the workflow will run 1
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
