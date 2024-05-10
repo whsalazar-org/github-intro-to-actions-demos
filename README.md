@@ -1,7 +1,7 @@
 # GitHub: Intro to Actions
 
 ## Overview
-This repository has a series of workflows designed to introduce different features of GitHub Actions
+This repository has a series of workflows designed to introduce different features of GitHub Actions.
 
 ## Useful Links
 - General Documentation - https://docs.github.com/en/actions
