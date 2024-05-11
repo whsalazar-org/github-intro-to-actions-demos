@@ -1,10 +1,10 @@
 name: Demo 6 - Pull Request
 
 on:
-  pull_request:
+  pull_request:  
     branches: 
       - main
-  
+    
 jobs:
   build-test-branch:
     name: "Build and Test Of PR"

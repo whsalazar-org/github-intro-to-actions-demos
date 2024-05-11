@@ -1,4 +1,4 @@
-# GitHub: Intro to Actions
+# GitHub: Intro to NewActions
 
 ## Overview
 This repository has a series of workflows designed to introduce different features of GitHub Actions.
