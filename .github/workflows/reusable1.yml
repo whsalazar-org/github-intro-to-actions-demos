@@ -1,0 +1,21 @@
+name: My Reusable1 Workflow
+
+on:
+  workflow_call:
+  workflow_dispatch:
+  
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "reusable1 workflow job1"
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJSON(github) }}
+        run: echo "$GITHUB_CONTEXT" 
+        
+  
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "reusable1 workflow job2"
