@@ -13,8 +13,7 @@ on:
         options:
           - Left
           - Right
-  
-  
+
 jobs:
 
   caller-job:
@@ -25,7 +24,7 @@ jobs:
           echo ${{ github.event.inputs.someInput }}
       
   reusable-job:
-    uses: ./.github/workflows/reusable.yml
+    # uses: ./.github/workflows/reusable.yml
     # uses: djredman99/github-intro-to-actions-demo/.github/workflows/reusable.yml@${{github.ref}}
     
   #reusable-2:
