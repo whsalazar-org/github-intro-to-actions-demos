@@ -8,3 +8,4 @@
        checkout main
        commit
        commit
+       commit
